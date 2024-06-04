@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-04T06:33:08.465Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="OT6XC7o5dLZ1bG59VK4k" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-04T06:33:58.799Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XhhuJC8hz4ujTQnVhr8l" version="24.4.13" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="979" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zziyT_RN4S72mbgWYTng-12" value="&amp;lt;Interface&amp;gt;&lt;div&gt;DiscountInterface&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="208" y="560" width="140" height="60" as="geometry" />
+          <mxGeometry x="209" y="560" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zziyT_RN4S72mbgWYTng-13" value="+ 할인 금액 계산" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zziyT_RN4S72mbgWYTng-12">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -80,6 +80,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="550" as="sourcePoint" />
             <mxPoint x="320" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-17" value="편의점 할인" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="681" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-18" value="+ 할인 금액 계산" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zziyT_RN4S72mbgWYTng-17">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-20" value="결제 수단 할인" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="326" y="681" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-24" value="+ 할인 금액 계산" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zziyT_RN4S72mbgWYTng-20">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-26" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.429;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zziyT_RN4S72mbgWYTng-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="126" y="831" as="sourcePoint" />
+            <mxPoint x="276" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zziyT_RN4S72mbgWYTng-27" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.514;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zziyT_RN4S72mbgWYTng-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="691" as="sourcePoint" />
+            <mxPoint x="288" y="622" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
